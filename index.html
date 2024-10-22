@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery shop</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\HP\Downloads\i.webp">
+    <!--code for font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="Grocery.css"/>
+
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> <i class="fa fa-shopping-basket"></i>Grocery</a>
+
+      <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="features.html" >Features</a>
+        <a href="#Products">Products</a>
+        <a href="#Categories">Categories</a>
+        <a href="#Review">Review</a>
+        
+      </nav>
+
+      <div class="icons">
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+      </div>
+      <div class="fa fa-bars" id="menu-btn"></div>
+
+      <form class="search-form">
+        <input type="search" id="search-box" placeholder="search here....." />
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="./Assets/custurd apple.jpg" height="50%" width="50%" />
+          <div class="content">
+            <h3>custurd apple</h3>
+            <span class="Price">$5.99/-</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="./Assets/onion.jpg" height="50%" width="50%" />
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="Price">$6.99/-</span>
+            <span class="quantity">Qty : 4</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="./Assets/chicken.jpg" height="100%" width="120%" />
+          <div class="content">
+            <h3>Chicken</h3>
+            <span class="Price">$8.99/-</span>
+            <span class="quantity">Qty : 5</span>
+          </div>
+        </div>
+
+        <div class="total">total : $22.97/-</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+
+      <form action="#" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+
+        <p>Forget Your Password <a href="#">Click Here</a></p>
+        <p>Don't Have An Account <a href="#">Create Now</a></p>
+
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+
+    <!--Home section-->
+    <section class="Home" id="Home">
+      <div class="container">
+        <div class="content">
+          <h3><span>Fresh</span> And <span>Organic</span> Products For You</h3>
+          <a href="#" class="btn">Shop now</a>
+        </div>
+      </div>
+    </section>
+<!--features part-->
+    <section class="Features" id="Feature">
+      <h1 class="heading">our <span>Feature</span></h1>
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-column">
+            <img src="https://w7.pngwing.com/pngs/220/340/png-transparent-vegetable-lot-organic-food-milk-food-gift-baskets-grocery-natural-foods-food-cooking.png" height="200" width="220"/>
+            <h3>Fresh and Organic</h3>
+            <p>
+              You will get <span>Fresh</span> products whenever you order.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+
+          <div class="grid-column">
+            <img src="https://img.freepik.com/premium-vector/free-delivery-icon-fast-food-service-scooter-sign_8071-38373.jpg" height="200" width="220" />
+            <h3>Free Delivery</h3>
+            <p>Save your money from delievery using our website.</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+
+          <div class="grid-column">
+            <img src="https://cdn1.vectorstock.com/i/1000x1000/09/40/easy-payment-design-vector-3080940.jpg" height="200" width="220" />
+            <h3>Easy payment</h3>
+            <p>
+             You can do digital using any payment app
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!---our products-->
+   <!---our products-->
+   <section class="products" id="products">
+    <h1 class="heading">our <span>products</span></h1>
+    <div class="swiper product-slider">
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slider box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReoDpOJeSlKYMbdou1lpdiRCv0PTfJweKw0A&s" height="25
+          0" width="250">
+          <h1>Fresh kiwi</h1>
+          <div class="price"> $13.99/- - 16.99/-</div>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+               </div>
+
+
+
+               <div class="swiper-slider box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoSNUB8XwgNWdLSikFCIwBF96d1YfuCkl9kw&s" height="200" width="220">
+                <h1>Fresh cabbage</h1>
+                <div class="price"> $17.99/- - 19.99/-</div>
+                <div class="star">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                     </div>
+
+
+
+                     <div class="swiper-slider box">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPG8xVeOg8RmkVZsli6Fhl5UErmBMA8cBtQ&s" height="200" width="220">
+                      <h1>Fresh orange</h1>
+                      <div class="price"> $20.99/- - 22.99/-</div>
+                      <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                      </div>
+                      <a href="#" class="btn">add to cart</a>
+                           </div>
+
+
+                           <div class="swiper-slider box">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsrL7D9w5QUSC03Pbba8ZryzK-8Tr92ix_qw&s" height="200" width="220">
+                            <h1>Fresh meat</h1>
+                            <div class="price"> $25.99/- - 29.99/-</div>
+                            <div class="star">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-half"></i>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                          </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="swiper product-slider">
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slider box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS8cCkdchpVYji3bP6V2lTC0rge82u7BkG8g&s" height="200" width="220">
+          <h1>Fresh custurd apple</h1>
+          <div class="price"> $12.99/- - 15.99/-</div>
+          <div class="star">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+               </div>
+
+
+
+               <div class="swiper-slider box">
+                <img src="https://png.pngtree.com/png-vector/20240110/ourlarge/pngtree-coriander-leaves-png-image_11432565.png" height="200" width="220">
+                <h1>Fresh coriander</h1>
+                <div class="price"> $14.99/- - 16.99/-</div>
+                <div class="star">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                     </div>
+
+
+
+                     <div class="swiper-slider box">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgPNdfkyHQ4hMeK1WIgmLRg4dp0uAivBAU2A&s" height="200" width="220">
+                      <h1>Fresh Cauliflower</h1>
+                      <div class="price"> $19.99/- - 21.99/-</div>
+                      <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                      </div>
+                      <a href="#" class="btn">add to cart</a>
+                           </div>
+
+
+                           <div class="swiper-slider box">
+                            <img src="https://t3.ftcdn.net/jpg/02/19/49/74/360_F_219497441_wLL3P3X1sFOWPBdT6Nf2IVdShrwQtLTg.jpg" height="200" width="220">
+                            <h1>Fresh chikoo</h1>
+                            <div class="price"> $21.99/- - 23.99/-</div>
+                            <div class="star">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-half"></i>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                              </div>
+      </div>
+    </div>
+    </section>
+
+    <!---our categories-->
+
+
+ <!---our categories--> 
+ <section class="categories" id="categories">
+  <h1 class="heading">our <span>categories</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfM6bBCPIkMtGacitF15XNI0KZ6C3G0g5XRw&s" height="280" width="200">
+          <h3>Fresh vegetables</h3>
+          <p>Upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+      </div>
+
+
+      <div class="box">
+        <img src="https://img.freepik.com/premium-photo/bunch-different-fruits-including-one-that-has-word-fruit-it_1028566-61536.jpg" height="280" width="200">
+          <h3>Fresh fruits</h3>
+          <p>Upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+      </div>
+
+      <div class="box">
+        <img src="https://png.pngtree.com/png-vector/20240515/ourmid/pngtree-a-bottle-in-fresh-splash-milk-png-image_12467335.png" height="280" width="200">
+          <h3>Dairy products</h3>
+          <p>Upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+      </div>
+
+      <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsrL7D9w5QUSC03Pbba8ZryzK-8Tr92ix_qw&s" height="280" width="200">
+          <h3>Fresh meat</h3>
+          <p>Upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+      </div>
+    </div>
+
+
+  </section>
+
+ <!---our categories-->
+
+
+ <!---our review-->
+<section class="review" id="review">
+  <h1 class="heading">Customer's <span>Review</span></h1>
+  <div class="review-slider">
+    <div class="feedback">
+      <div class="feedback-box">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5aCMO24e6ZTz7_TTUdoqiclVyuhAzV0kFw&s" height="200" width="200">
+         <p>Everything was perfect as usual. Good packaging,
+         fast delivery, always fresh foods. Thank you Best Grocery.</p>
+         <h3>Satish Jain</h3>
+         <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      </div>
+
+      <div class="feedback-box">
+        <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-PNG-Photo.png" height="280" width="200">
+        <p>Fast and nicely packed shipping. Nice product quality.
+       A bit pricy compared local groceries in West Midlands but definitely is
+        a good opportunity to get these unique goods.</p>
+        <h3>Kavita Raj</h3>
+        <div class="star">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half"></i>
+       </div>
+     </div>
+
+     <div class="feedback-box">
+      <img src="https://cdn-icons-png.flaticon.com/256/4825/4825112.png" height="280" width="200">
+      <p>Very good shop. Fast delivery. If something is not available,
+         they let you know.definitely recommend!</p>
+      <h3>Manisha Jha</h3>
+      <div class="star">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star-half"></i>
+     </div>
+   </div>
+
+
+   <div class="feedback-box">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/027/951/130/small/africa-guy-3d-avatar-character-illustrations-png.png" height="200" width="200">
+    <p>Fantastic as always. Fast shipping, carefully packed and most importantly, 
+      fresh products. Thank you.</p>
+    <h3>Ritvik Gupta</h3>
+    <div class="star">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-half"></i>
+   </div>
+ </div>
+</div>
+</div>
+</section>
+<hr>
+
+
+
+
+ <!---our review-->
+
+ <!--contact section-->
+<section class="contact-box">
+
+<div class="contact">
+  <h1 align="center">CONTACT INFO</h1>  
+  <a href="#" class="link"><i class="fa fa-phone"></i>+91-9626828274</a><br>
+  <a href="#" class="link"><i class="fa fa-phone"></i>+91-9820426214</a><br>
+  <a href="#" class="link"><i class="fa fa-envelope"></i>groce@gmail.com</a><br>
+  <a href="#" class="link"><i class="fa fa-map-marker"></i>Visit at Panvel</a>
+
+
+    <h1 align="center">SOCIAL ACCOUT</h1>  
+    <a href="#" class="link"><i class="fa fa-facebook-f"></i>Facebook</a><br>
+    <a href="#" class="link"><i class="fa fa-twitter"></i>Twitter</a><br>
+      <a href="#" class="link"><i class="fa fa-instagram"></i>Instagram</a><br>
+      <br>
+      <p class="copyright">© 2024 sapanaprajapati</p>
+</div>
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="Grocery.js"></script>
+  </body>
+</html>
